@@ -1,0 +1,8 @@
+<p class="article-title">{{article.title}}</p>
+<p class="article-synopsis">{{article.synopsis}}</p>
+<div class="gallery" ng-repeat="articleImages in article.gallery">
+    <img class="article-image" ng-src="{{articleImages}}"/>
+</div>
+
+<video autoplay class="article-video" ng-src="{{article.video}}" controls></video>
+

@@ -1,0 +1,122 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+  margin-left: 10px;
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+  color: lightgray;
+
+}
+.synopsis {
+  color: lightgray;
+  max-width: 600px;
+}
+body {
+  background-color: #4c4c4a;
+}
+
+.menu-item {
+  color: lightgray;
+}
+
+.bottom-menu {
+  list-style: none;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+  margin-left: 10px;
+}
+
+.bottom-menu > li {
+  display: inline;
+}
+
+.bottom-menu > li + li:before {
+  content: "/";
+  padding-right: 0.3em;
+  color: darkred;
+
+}
+.bottom-menu-item {
+  color: darkred;
+}
+
+.hero {
+  border: solid 2px white;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.title {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+
+.main-view {
+  margin-left: 10px;
+}
+
+.article-container {
+  margin-bottom: 30px;
+}
+.article-image {
+  border: solid 2px white;
+  width: 200px;
+  height: auto;
+  display: inline-block;
+  margin-right: 30px;
+}
+.gallery {
+  display: inline-block;
+}
+.article-video {
+  display: block;
+  margin-top: 10px;
+  width: 700px;
+  height:auto;
+}
+.article-title {
+  color: white;
+  font-size: 20px;
+}
+
+.article-synopsis {
+  color: lightgray;
+  max-width: 600px;
+}
+#links a{
+  color:white;
+  border-radius:5px;
+  font-size:15px;
+  transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  text-decoration: none;
+
+}
+#links a:hover{
+  border-bottom:5px solid darkred;
+}
+.character-name {
+  font-size: 20px;
+  color: white;
+}
+.character-hero {
+  border: solid 2px white;
+  width: 600px;
+  height: auto;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
